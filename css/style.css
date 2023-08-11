@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('reset.css');
+@import url('bootstrap-grid.min.css');
+
+
+*{box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+.text-center {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+/* header */
+header {
+    padding-top: 8px;
+}
+
+/* small */
+.small-logo  {
+    width: 42px;
+    height: 17px;
+    background: url(../images/minidaum_v5.png)
+    no-repeat left top;
+    background-size: 290%;
+}
+.small-email {
+    width: 39px;
+    height: 17px;
+    background: url(../images/minidaum_v5.png)
+    no-repeat 10px -20px;
+    background-size: 270%;
+
+}
+.small-list {
+    width: 39px;
+    height: 17px;
+    background: url(../images/minidaum_v5.png)
+    no-repeat -21px -22px;
+    background-size: 295%;
+    position: relative;
+    cursor: pointer;
+    
+
+    
+}
+.small-navbox {
+    position: absolute;
+    top: 28px;
+    /* right: 0; */
+    display: none;
+
+}
+
+.malpoongsun {
+    position: absolute;
+    top: 0;
+    right: -240px;
+    width: 25px;
+    height: 25px;
+    z-index: 5;
+    background: url(../images/minidaum_v5.png)
+    no-repeat -70px -90px;
+    background-size: 600%;
+}
+.small-in-navbox {
+    margin-top: 17px;
+    border: 1px solid #cdcdcd;
+    background-color: #fff;
+    
+    
+}
+.small-top-icon {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.small-top-icon a {
+    font-weight: 600;
+    text-decoration: none;
+}
+.small-top-icon a:hover {
+    text-decoration: underline;
+}
+
+/* small-top-list */
+.small-top-list {
+    padding: 20px 3px;
+    font-size: 12px;
+}
+.small-top-list li {
+    width: 25%;
+    border-right: 1px solid #e4e4e4;
+    
+    
+}
+.small-top-list li:last-child {
+    border: none;
+}
+.small-top-list a {
+    display: block;
+    text-decoration: none;
+    line-height: 25px;
+    padding-left: 10px;
+    font-weight: 300;
+}
+.small-top-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* top-right-all */
+.top-right-all {
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 13px;
+}
+.top-right-all a {
+    text-decoration: none;
+}
+.top-right-all a:hover {
+    text-decoration: underline;
+}
+
+
+/* small-top-icon */
+.small-top-icon p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+.small-top-icon > a {
+    text-align: center;
+}
+.small-top-icon .col-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.small-top-icon img {
+    width: 36px;
+    height: 36px;
+}
+
+
+/* btn-login */
+.btn-login {
+    width: 50px;
+    height: 24px;
+    border: 1px solid #e4e4e4;
+    font-size: 12px;
+    line-height: 12px;
+    color: #666;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+/* top-right-nav */
+.top-right-nav {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* media */
+@media (max-width: 768px) {
+    .text-sm-center {
+        text-align: center;
+    }
+    .d-sm-flex {
+        display: flex;
+    }
+    
+    
+    /* flex-wrap-wrap */
+    .flex-sm-wrap-wrap { /* 줄바꿈 */
+        flex-wrap: wrap;
+    }
+    
+    .flex-sm-direction-column {
+        flex-direction: column;
+    }
+    .flex-sm-direction-row {
+        flex-direction: row;
+    }
+    
+    /* justify-content-between */
+    .justify-sm-content-between {
+        justify-content: space-between;
+    }
+    
+    .align-items-center {
+        align-items: center;
+    }
+    
+    /* d-block */
+    .d-sm-block {
+        display: block;
+    }
+    .d-sm-inline-block {
+        display: inline-block;
+    }
+}
+
+/* flex-wrap-wrap */
+.flex-wrap-wrap { /* 줄바꿈 */
+    flex-wrap: wrap;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+.flex-direction-row {
+    flex-direction: row;
+}
+
+/* justify-content-between */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* d-block */
+.d-block {
+    display: block;
+}
+
+
